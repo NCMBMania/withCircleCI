@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/NCMBMania/withCircleCI/issues"
   },
-  "homepage": "https://github.com/NCMBMania/withCircleCI#readme"
+  "homepage": "https://github.com/NCMBMania/withCircleCI#readme",
+  "devDependencies": {
+    "nyc": "^14.1.1"
+  }
 }
