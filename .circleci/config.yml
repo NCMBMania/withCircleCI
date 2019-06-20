@@ -35,3 +35,4 @@ jobs: # ステップの集合
       - store_test_results: # テストサマリー (https://circleci.com/docs/ja/2.0/collect-test-data/) に表示するため
           path: test-results.xml
       # デプロイ例については https://circleci.com/docs/ja/2.0/deployment-integrations/ を参照してください
+
