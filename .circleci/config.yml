@@ -3,7 +3,7 @@ jobs: # ステップの集合
   build: # Workflows を使用しない実行では、エントリポイントとして `build` ジョブが必要
     working_directory: ~/mern-starter # ステップが実行されるディレクトリ
     docker: # Docker でステップを実行します
-      - image: circleci/node:4.8.2 # このイメージをすべての `steps` が実行されるプライマリコンテナとして使用します
+      - image: circleci/node:12.1.0 # このイメージをすべての `steps` が実行されるプライマリコンテナとして使用します
     steps: # 実行可能コマンドの集合
       - checkout # ソースコードを作業ディレクトリにチェックアウトする特別なステップ
       - run:
